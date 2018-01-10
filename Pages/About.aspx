@@ -1,0 +1,13 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="About.aspx.cs" Inherits="Pages_Aboutt" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <p style="-webkit-font-smoothing: subpixel-antialiased; margin: 15px auto; padding: 50px 0px 0px; font-family: robotoLight; color: rgb(102, 102, 102); font-size: 16px; font-weight: 100; line-height: 22px; text-align: justify; width: 864px; letter-spacing: 0.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; border-top: 1px solid rgb(238, 238, 238);">
+        In February 2010, Aditya Bansal, started Bansalkart- India&#39;s largest online marketplace, with the widest assortment of 60 million plus products across 800 categories from regional, national and international brands and retailers.</p>
+    <p style="-webkit-font-smoothing: subpixel-antialiased; margin: 15px auto; padding: 0px; font-family: robotoLight; color: rgb(102, 102, 102); font-size: 16px; font-weight: 100; line-height: 22px; text-align: justify; width: 864px; letter-spacing: 0.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
+        With millions of users and more than 300,000 sellers, Snapdeal is the shopping destination for Internet users across the country, delivering to 6000+ cities and towns in India.</p>
+    <p style="-webkit-font-smoothing: subpixel-antialiased; margin: 15px auto; padding: 0px; font-family: robotoLight; color: rgb(102, 102, 102); font-size: 16px; font-weight: 100; line-height: 22px; text-align: justify; width: 864px; letter-spacing: 0.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
+        In its journey till now, Snapdeal has partnered with several global marquee investors and individuals such as SoftBank, BlackRock, Temasek, Foxconn, Alibaba, eBay Inc., Premji Invest, Intel Capital, Bessemer Venture Partners, Mr. Ratan Tata, among others.</p>
+</asp:Content>
+

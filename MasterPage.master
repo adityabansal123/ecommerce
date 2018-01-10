@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Books on Demand</title>
+    <link rel="stylesheet" href="Styles/StyleSheet.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="Styles/jcarousel.basic.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+            <asp:ScriptManager ID="sc1" runat="server">
+        <Scripts>
+            <asp:ScriptReference Path="~/Scripts/jquery.js" />
+            <asp:ScriptReference Path="~/Scripts/jcarousel.basic.js" />
+            <asp:ScriptReference Path="~/Scripts/jquery.jcarousel.min.js" />
+            <asp:ScriptReference Path="~/Scripts/jcarousel.basic.js" />
+        </Scripts>
+    </asp:ScriptManager>
+    <div>
+        <div id="wrapper">
+             <div id="banner">
+               <div class="wrapper">
+              <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                     <ul>
+                        <li><img src="/Images/v1.png" alt="" width="1200" height="400"/></li>
+                         <li><img src="/Images/vaid2.jpg" alt="" width="1200" height="400"/></li>
+                         <li><img src="/Images/vaid3.jpg" alt="" width="1200" height="400"/></li>
+                         <li><img src="/Images/vaid4.jpg" alt="" width="1200" height="400"/></li>
+                        <li><img src="/Images/vaid5.jpg" alt="" width="1200" height="400"/></li>
+                     </ul>
+                 </div>
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                
+                <p class="jcarousel-pagination">
+                </div>
+             </div>
+             </div>
+            <div id="navigation">
+                <ul id="nav">
+                    <li>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="/Index.aspx">Webshop</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="/Pages/About.aspx">About us</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="/Pages/Management/Management.aspx">Management</asp:HyperLink></li>
+                    <li style="float: right">
+                            <asp:HyperLink ID="lnkRegister" runat="server" NavigateUrl="/Pages/Account/Register.aspx">Register</asp:HyperLink>
+                            <asp:HyperLink ID="litStatus" runat="server" NavigateUrl="/Pages/ShoppingCart.aspx"></asp:HyperLink>
+                    </li>
+                    <li style="float: right">
+                            <asp:HyperLink ID="LnkLogIn" runat="server" NavigateUrl="/Pages/Account/Login.aspx">Log in</asp:HyperLink>
+                            <asp:LinkButton ID="btnLogOut" runat="server" Text="Log out" OnClick="lnkLogOut_Click" />
+                    </li>
+                
+                </ul>
+            </div>
+            <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
